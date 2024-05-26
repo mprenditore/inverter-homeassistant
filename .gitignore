@@ -6,3 +6,8 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 .DS_Store
+sources/inverter-cli/bin/
+sources/inverter-cli/inverter_poller
+*~
+*.swp
+
