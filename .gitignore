@@ -10,4 +10,6 @@ sources/inverter-cli/bin/
 sources/inverter-cli/inverter_poller
 *~
 *.swp
+config/*.conf
+config/*.json
 
