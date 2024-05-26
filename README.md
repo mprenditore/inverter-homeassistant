@@ -48,6 +48,10 @@ git clone https://github.com/gadget78/docker-voltronic-homeassistant.git /opt/ha
 # Change directory to the downloaded source
 cd /opt/ha-inverter-mqtt-agent
 
+# copy the example conf files
+cp config/inverter.conf.example config/inverter.conf
+cp config/mqtt.json.example config/mqtt.json
+
 # next Configure the 'device=' parameter to suit for RS232 or USB etc (info in file).. 
 # Leave the rest the same for now 
 # (how to use/save nano is printed at bottom, ctrl+x for exit, with prompt tosave)

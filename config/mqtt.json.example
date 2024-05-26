@@ -1,0 +1,12 @@
+{
+    "server": "hassio.local",
+    "port": "1883",
+    "topic": "homeassistant",
+    "devicename": "voltronic",
+    "manufacturer": "Voltronic",
+    "model": "VMIII-6000",
+    "serial": "01",
+    "ver": "00000.00",
+    "username": "user",
+    "password": "pass"
+}
