@@ -27,6 +27,7 @@ services:
       - /dev/bus/usb:/dev/bus/usb:rwm
       - /dev/ttyUSB0:/dev/ttyUSB0:rwm
       - /dev/ttyUSB1:/dev/ttyUSB1:rwm
+      - /dev/hidraw0:/dev/hidraw0
 
     # Serial Port Mapping...
       - /dev/ttyS0:/dev/ttyS0
