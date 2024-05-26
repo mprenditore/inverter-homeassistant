@@ -8,6 +8,7 @@ pushMQTTData () {
     MQTT_DEVICENAME=`cat /etc/inverter/mqtt.json | jq '.devicename' -r`
     MQTT_USERNAME=`cat /etc/inverter/mqtt.json | jq '.username' -r`
     MQTT_PASSWORD=`cat /etc/inverter/mqtt.json | jq '.password' -r`
+    MQTT_SERIAL=`cat /etc/inverter/mqtt.json | jq '.serial' -r`
 
     mosquitto_pub \
         -h $MQTT_SERVER \
